@@ -1,0 +1,11 @@
+[project]
+name = "donegal-fun-classifier"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13" # Doesn't like 3.14
+dependencies = [
+    "pillow==12.3.0",
+    "Orange3==3.40.0",
+    "orange3-text==1.16.3",
+    "PyQt5==5.15.11",
+    "scikit-learn==1.5.2", # Match the scikit-learn bundled in Orange.app so .pkcls files unpickle
+]
