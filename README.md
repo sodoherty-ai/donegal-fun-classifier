@@ -8,3 +8,4 @@ The magic for the demo is in `create_image_with_classifier.py`.
 
 Used [Orange](https://orangedatamining.com) to create the initial model.
 
+<img src="assets/example.png">
